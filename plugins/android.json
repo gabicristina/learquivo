@@ -1,0 +1,47 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "res/xml/config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"File\"><param name=\"android-package\" value=\"org.apache.cordova.file.FileUtils\" /><param name=\"onload\" value=\"true\" /></feature>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"WebSocket\"><param name=\"android-package\" value=\"com.knowledgecode.cordova.websocket.WebSocket\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "AndroidManifest.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<uses-permission android:name=\"android.permission.INTERNET\" />",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "org.apache.cordova.file": {
+            "PACKAGE_NAME": "com.teste.learquivo"
+        },
+        "com.knowledgecode.cordova.websocket": {
+            "PACKAGE_NAME": "com.teste.learquivo"
+        }
+    },
+    "dependent_plugins": {}
+}
