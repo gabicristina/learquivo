@@ -5,6 +5,7 @@ C:\Users\Gaabi\Documents\FURB\learquivo\platforms\android\ant-build\classes\com\
 C:\Users\Gaabi\Documents\FURB\learquivo\platforms\android\ant-build\classes\com\knowledgecode\cordova\websocket\WebSocket$JettyWebSocket.class \
 C:\Users\Gaabi\Documents\FURB\learquivo\platforms\android\ant-build\classes\com\knowledgecode\cordova\websocket\WebSocket$Send.class \
 C:\Users\Gaabi\Documents\FURB\learquivo\platforms\android\ant-build\classes\com\knowledgecode\cordova\websocket\WebSocket.class \
+C:\Users\Gaabi\Documents\FURB\learquivo\platforms\android\ant-build\classes\com\megster\cordova\FileChooser.class \
 C:\Users\Gaabi\Documents\FURB\learquivo\platforms\android\ant-build\classes\com\teste\learquivo\BuildConfig.class \
 C:\Users\Gaabi\Documents\FURB\learquivo\platforms\android\ant-build\classes\com\teste\learquivo\LeArquivo.class \
 C:\Users\Gaabi\Documents\FURB\learquivo\platforms\android\ant-build\classes\com\teste\learquivo\R$attr.class \

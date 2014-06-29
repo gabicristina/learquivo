@@ -16,7 +16,8 @@
                             "xml": "<feature name=\"WebSocket\"><param name=\"android-package\" value=\"com.knowledgecode.cordova.websocket.WebSocket\" /></feature>",
                             "count": 1
                         }
-                    ]
+                    ],
+                    "/widget": []
                 }
             },
             "AndroidManifest.xml": {

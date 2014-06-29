@@ -17,6 +17,15 @@
 			$("#testeBotao").click(function(){
 				readFile();
 			});
+			$("#btn_filechooser").click(function(){
+				/*fileChooser.open(function() {
+					fileChooser.open(function(uri) {
+					    alert(uri);
+					});
+				}, function() {
+					alert("nope");
+				});*/
+			});
 		});
 	</script>
 <title>Lê arquivo</title>
@@ -43,6 +52,9 @@
 		    <input type="submit" value="Testa Web">
 		</form>
 		<button id="testeWebSocket"><a href="testeWebSocket.html">Teste Web Socket</a></button>
+	</div>
+	<div>
+		<button id="btn_filechooser">Teste FileReader</button>
 	</div>
 </body>
 </html>
